@@ -1,19 +1,19 @@
 import Image from 'next/image'
 import React from 'react'
-import financeiroImg from '../public/assets/projects/financeiro.jpg'
+import eshop from '../public/assets/projects/eshop.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const financeiro = () => {
+const criptobase = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={financeiroImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={eshop} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] 
           translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Controle Financeiro</h2>
-          <h3>React JS / CSS3 / localStorage</h3>
+          <h2 className='py-2'>Criptobase APP</h2>
+          <h3>React JS / Redux / Firebase</h3>
         </div>
       </div>
 
@@ -22,17 +22,17 @@ const financeiro = () => {
           <p className='mb-4'>Projeto</p>
           <h2>Visão Global</h2>
           <p className='mt-4'>
-            Eu projeto foi construído pensando tanto no aprendizado quanto no uso
-            próprio pois no momento estava precisando fazer o controle dos meus
-            gastos pessoais, o projeto atual está configurado para localStorage o
-            que deixa todo o salvamento de informações no navegador. Futuramente
-            irei acrescentar um banco de dados junto da adição de um sistema de
-            login, assim como melhorar o design da página.
+            Neste projeto prático, foi criado um site de comércio eletrônico
+            full stack usando reactjs, redux toolkit e firebase v9 com UI e UX
+            modernos. Design responsivo, com a utilização das ferramentas
+            do react-redux, usando a autenticação do firebase firestore, firebase storage,
+            como usar useState hooks, useEffect hooks, useRef hooks, biblioteca
+            remix icon e muito mais.
           </p>
-          <a href="https://appfinanceiro.netlify.app/" target='_blank' rel='noreferrer'>
+          <a href="https://eshop-react-ecommerce.netlify.app/" target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mr-8'>Demonstração</button>
           </a>
-          <a href="https://github.com/pauloaraujo028/controle-financeiro" target='_blank' rel='noreferrer'>
+          <a href="https://github.com/pauloaraujo028/eshop-react-ecommerce" target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mt-4'>Código</button>
           </a>
         </div>
@@ -41,13 +41,19 @@ const financeiro = () => {
             <p className='text-center font-bold pb-2'>Tecnologias</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> ReactJs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' /> CSS3
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> localStorage
+                <RiRadioButtonFill className='pr-1' /> Redux
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React Router
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
             </div>
           </div>
@@ -60,4 +66,4 @@ const financeiro = () => {
   )
 }
 
-export default financeiro;
+export default criptobase;

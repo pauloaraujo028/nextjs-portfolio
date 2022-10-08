@@ -1,39 +1,48 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import criptoApp from '../public/assets/projects/criptobase.jpg'
 import financeiro from '../public/assets/projects/financeiro.jpg'
-import projeto1 from '../public/assets/projects/projeto1.jpg'
-import reactpokedex from '../public/assets/projects/reactpokedex.jpg'
+import eshop from '../public/assets/projects/eshop.png'
+import nextpokedex from '../public/assets/projects/nextpokedex.jpg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projetos</p>
+        <p className='text-xl tracking-widest font-bold uppercase text-[#fe140d]'>Projetos</p>
         <h2 className='py-4'>O que Eu Construí</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Criptobase App'
+            title='eShop e-Commerce'
+            subTitle='ReactJs / Redux / Firebase / CSS3'
+            backgroundImg={eshop}
+            projectUrl='/Eshop'
+          />
+          <ProjectItem
+            title='Criptobase APP'
+            subTitle='ReactJs / Tailwind CSS / API / Firebase'
             backgroundImg={criptoApp}
-            projectUrl='/criptobase'
+            projectUrl='/Criptobase'
+          />
+          <ProjectItem
+            title='NextJs Pokédex'
+            subTitle='NextJs / Tailwind CSS / API'
+            backgroundImg={nextpokedex}
+            projectUrl='/nextPokedex'
           />
           <ProjectItem
             title='Controle Financeiro'
+            subTitle='ReactJs / localStorage'
             backgroundImg={financeiro}
-            projectUrl='/financeiro'
+            projectUrl='/Financeiro'
           />
-          <ProjectItem
-            title='React Pokédex'
-            backgroundImg={reactpokedex}
-            projectUrl='/reactpokedex'
-          />
-          <ProjectItem
-            title='Controle Financeiro'
-            backgroundImg={projeto1}
-            projectUrl='/projeto1'
-          />
+        </div>
+        <div>
+          <a href="https://github.com/pauloaraujo028" target='_blank' rel='noreferrer'>
+            <p className='w-full pt-10 flex justify-center items-center text-gray-600 underline cursor-pointer'>
+              Confira mais projetos no GitHub.
+            </p>
+          </a>
         </div>
       </div>
     </div>

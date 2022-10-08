@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import reactpokedexImg from '../public/assets/projects/reactpokedex.jpg'
+import nextpokedexImg from '../public/assets/projects/nextpokedex.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -9,11 +9,11 @@ const reactpokedex = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={reactpokedexImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={nextpokedexImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] 
           translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>React Pokédex</h2>
-          <h3>React JS / CSS</h3>
+          <h2 className='py-2'>NextJs Pokédex</h2>
+          <h3>NextJs / Tailwind CSS / API</h3>
         </div>
       </div>
 
@@ -21,18 +21,16 @@ const reactpokedex = () => {
         <div className='col-span-4'>
           <p className='mb-4'>Projeto</p>
           <h2>Visão Global</h2>
-          <p className='mt-4 indent-8'>
-            Eu construí esse projeto pensando tanto no aprendizado quanto no uso
-            próprio pois no momento estava precisando fazer o controle dos meus
-            gastos pessoais, o projeto atual está configurado para localStorage o
-            que deixa todo o salvamento de informações no navegador. Futuramente
-            irei acrescentar um banco de dados junto da adição de um sistema de
-            login, assim como melhorar o design da página.
+          <p className='mt-4'>
+            Pokédex usando NextJs e Tailwind CSS para acessar endpoints de uma API,
+            Neste projeto foi aprendido sobre geração de site estático, renderização
+            do lado do servidor, rotas dinâmicas, buscar API e muito mais. Este
+            aplicativo é o primeiro projeto NextJS, e foi utilizado a API pikaserve do GitHub.
           </p>
-          <a href="https://react-pokedex1.netlify.app/" target='_blank' rel='noreferrer'>
+          <a href="https://nextpokedex-app.netlify.app/" target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mr-8'>Demonstração</button>
           </a>
-          <a href="https://github.com/pauloaraujo028/react-pokedex" target='_blank' rel='noreferrer'>
+          <a href="https://github.com/pauloaraujo028/nextjs-pokedex" target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mt-4'>Código</button>
           </a>
         </div>
@@ -41,13 +39,13 @@ const reactpokedex = () => {
             <p className='text-center font-bold pb-2'>Tecnologias</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> NextJs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' /> API
               </p>
             </div>
           </div>
