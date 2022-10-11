@@ -99,8 +99,8 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-      <footer className='flex justify-center items-center font-bold md:grid-cols-2'>
-        <p>© 2022 Paulo Araújo. Todos os direitos reservados.</p>
+      <footer className='flex justify-center items-center font-bold'>
+        <p className='text-center'>© 2022 Paulo Araújo. Todos os direitos reservados.</p>
       </footer>
     </div>
   )
