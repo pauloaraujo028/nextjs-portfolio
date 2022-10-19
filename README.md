@@ -61,6 +61,8 @@ Landing Page que conta um pouco sobre mim e mostra alguns dos meus projetos de e
 
 Landing Page feita para ser usada como meu Portfolio pessoa, onde conto um pouco sobre mim, mostro as tecnologias que estou estudando e práticando no momento, e com formulário de contato, É um projeto excelente, utilizável em todos os dispositivos e foi construído com NEXTJS & TAILWIND CSS. Espero que goste. Clique [aqui](https://pauloaraujo-portfolio.netlify.app/) para ver o projeto ao vivo na web.
 
+* Próximas atualizações: Adição do tema Dark/Light mode, divisão por categoria de projetos.
+
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <a name="built-with"></a>
