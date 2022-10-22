@@ -82,6 +82,9 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
+        <div className='items-center justify-center hidden md:flex'>
+          <button className='w-full p-[5px] text-gray-100 capitalize'><a href='/Resumo.pdf' download={true}>Baixar CV</a></button>
+        </div>
       </div>
 
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
@@ -126,6 +129,9 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contato</li>
               </Link>
             </ul>
+            <div className='flex items-center justify-center'>
+              <button className='w-full p-2 my-8 text-gray-100 capitalize'><a href='/Resumo.pdf' download={true}>Baixar CV</a></button>
+            </div>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#fe140d]'>Vamos Conversar</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
