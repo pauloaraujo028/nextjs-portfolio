@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
         <div>
           <a href="https://github.com/pauloaraujo028" target='_blank' rel='noreferrer'>
-            <p className='w-full pt-10 flex justify-center items-center text-gray-600 underline cursor-pointer'>
+            <p className='w-full pt-10 flex justify-center items-center text-gray-600 underline cursor-pointer dark:text-white'>
               Confira mais projetos no GitHub.
             </p>
           </a>

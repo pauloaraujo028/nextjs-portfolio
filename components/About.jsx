@@ -10,7 +10,7 @@ const About = () => {
         <div className='col-span-2'>
           <p className='uppercase text-xl font-bold tracking-widest text-[#fe140d]'>Sobre</p>
           <h2 className='py-4'>Quem sou Eu</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-white'>
             Eu sempre tive jeito para tecnologia e trabalhar com computadores.
             Em 2022 comecei a estudar programação, como minha primeira linguagem
             escolhi o Python pois a grande facilidade para aprender me chamou a
@@ -20,7 +20,7 @@ const About = () => {
             CSS para fazer alguns pequenos projetos, o que eu achava que eram apenas
             algumas pequenas edições se transformaram em amor pelo front-end.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-white'>
             Fascinado com a complexidade da programação, fui rapidamente atraído a
             aprender mais. Comecei a aprender javascript e fiquei ainda mais
             entusiasmados em tornar os sites interativos, então comecei a ver
@@ -28,19 +28,19 @@ const About = () => {
             agora estou passando meu tempo construindo projetos com React Js, Next Js,
             Firebase dentre outras ferramentas e buscando aprender novas tecnologias.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-white'>
             Considero-me ágil e consistente em aprender uma nova linguagem e me
             adaptar a qualquer mudança, e pronto para superar qualquer desafio,
             sempre focando no objetivo! Se pudesse me definir em 3 palavras,
             certamente seriam: otimista, perseverante e esforçado!
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-2 text-gray-600 underline cursor-pointer dark:text-white'>
               Confira alguns dos meus últimos projetos.</p>
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl 
-        flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 dark:shadow-none'>
           <Image src={AboutImg} className='rounded-xl' alt="/" />
         </div>
       </div>

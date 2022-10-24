@@ -1,13 +1,16 @@
-import Navbar from '../components/Navbar'
-import '../styles/globals.css'
+import { ThemeProvider } from "next-themes";
+import Navbar from "../components/Navbar";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Navbar />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
-};
+}
 
 export default MyApp;
