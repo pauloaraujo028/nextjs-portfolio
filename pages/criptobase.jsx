@@ -36,29 +36,29 @@ const criptobase = () => {
             tempo real.
           </p>
           <a href="https://criptobaseapp.netlify.app/" target='_blank' rel='noreferrer'>
-            <button className='px-8 py-2 mr-8'>Demonstração</button>
+            <button className='px-8 py-2 mr-8 dark:shadow-none'>Demonstração</button>
           </a>
           <a href="https://github.com/pauloaraujo028/cripto-base-app" target='_blank' rel='noreferrer'>
-            <button className='px-8 py-2 mt-4'>Código</button>
+            <button className='px-8 py-2 mt-4 dark:shadow-none'>Código</button>
           </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 dark:shadow-none'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Tecnologias</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-600 py-2 flex items-center dark:text-white'>
                 <RiRadioButtonFill className='pr-1' /> ReactJs
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-600 py-2 flex items-center dark:text-white'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-600 py-2 flex items-center dark:text-white'>
                 <RiRadioButtonFill className='pr-1' /> React Hooks
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-600 py-2 flex items-center dark:text-white'>
                 <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              <p className='text-gray-600 py-2 flex items-center dark:text-white'>
                 <RiRadioButtonFill className='pr-1' /> Gecko API
               </p>
             </div>

@@ -3,11 +3,13 @@ import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import contactImg from '../public/assets/contato.jpg'
 
 const Contact = () => {
+  const year = new Date().getFullYear()
+
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -30,28 +32,28 @@ const Contact = () => {
               <div className='pt-20'>
                 <p className='uppercase pt-8 text-[#fe140d]'>Conecte-se Comigo</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a href="https://www.linkedin.com/in/pauloaraujo028/" target='_blank' rel='noreferrer'>
+                  <a href="https://www.linkedin.com/in/pauloaraujo028/" target='_blank' rel='noreferrer' title='Veja meu LinkedIn'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 
                   cursor-pointer hover:scale-110 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="https://github.com/pauloaraujo028" target='_blank' rel='noreferrer'>
+                  <a href="https://github.com/pauloaraujo028" target='_blank' rel='noreferrer' title='Veja meu GitHub'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 
                   cursor-pointer hover:scale-110 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
                       <FaGithub />
                     </div>
                   </a>
-                  <a href="mailto:pauloaraujo.phz@gmail.com" target='_blank' rel='noreferrer'>
+                  <a href="mailto:pauloaraujo.phz@gmail.com" target='_blank' rel='noreferrer' title='Entre em contato via e-mail'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 
                   cursor-pointer hover:scale-110 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <a href='/Resumo.pdf' download={true}>
+                  <a href='https://wa.me/5511934429311' target='_blank' rel='noreferrer' title='Entre em contato via Whatsapp'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 
                   cursor-pointer hover:scale-110 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
-                      <BsFillPersonLinesFill />
+                      <FaWhatsapp />
                     </div>
                   </a>
                 </div>
@@ -98,8 +100,9 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+
       <footer className='flex justify-center items-center font-bold'>
-        <p className='text-center'>© 2022 Paulo Araújo. Todos os direitos reservados.</p>
+        <p className='text-center'>© {year} Paulo Araújo. Todos os direitos reservados.</p>
       </footer>
     </div>
   )

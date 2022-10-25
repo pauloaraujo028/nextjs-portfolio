@@ -2,7 +2,7 @@ import React from 'react'
 import criptoApp from '../public/assets/projects/criptobase.jpg'
 import financeiro from '../public/assets/projects/financeiro.jpg'
 import eshop from '../public/assets/projects/eshop.png'
-import nextpokedex from '../public/assets/projects/nextpokedex.jpg'
+import nextPokedex from '../public/assets/projects/nextpokedex.jpg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -27,8 +27,8 @@ const Projects = () => {
           <ProjectItem
             title='NextJs Pokédex'
             subTitle='NextJs / Tailwind CSS / API'
-            backgroundImg={nextpokedex}
-            projectUrl='/nextPokedex'
+            backgroundImg={nextPokedex}
+            projectUrl='/NextPokedex'
           />
           <ProjectItem
             title='Controle Financeiro'

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
@@ -88,7 +88,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex font-bold'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>Inicio</li>
             </Link>
@@ -166,28 +166,36 @@ const Navbar = () => {
             <div className='pt-0'>
               <p className='uppercase tracking-widest text-[#fe140d]'>Vamos Conversar</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 
+                <a href="https://www.linkedin.com/in/pauloaraujo028/" target='_blank' rel='noreferrer' title='Veja meu LinkedIn'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 
                 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
-                  <FaLinkedinIn />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a href="https://github.com/pauloaraujo028" target='_blank' rel='noreferrer' title='Veja meu GitHub'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 
                 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
-                  <FaGithub />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 
+                    <FaGithub />
+                  </div>
+                </a>
+                <a href="mailto:pauloaraujo.phz@gmail.com" target='_blank' rel='noreferrer' title='Entre em contato via e-mail'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 
                 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
-                  <AiOutlineMail />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 
+                    <AiOutlineMail />
+                  </div>
+                </a>
+                <a href='https://wa.me/5511934429311' target='_blank' rel='noreferrer' title='Entre em contato via Whatsapp'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 
                 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-white dark:text-black dark:shadow-none'>
-                  <BsFillPersonLinesFill />
-                </div>
+                    <FaWhatsapp />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
