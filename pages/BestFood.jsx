@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import eshop from "../public/assets/projects/eshop.png";
+import bestFoodImg from "../public/assets/projects/best-food.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,15 +13,15 @@ const criptobase = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={eshop}
+          src={bestFoodImg}
           alt="/"
         />
         <div
           className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] 
           translate-y-[-50%] text-white z-10 p-2"
         >
-          <h2 className="py-2">eShop React eCommerce</h2>
-          <h3>React JS / Redux / Firebase</h3>
+          <h2 className="py-2">Best Food APP</h2>
+          <h3>React JS / Tailwind CSS / NodeJS</h3>
         </div>
       </div>
 
@@ -30,15 +30,16 @@ const criptobase = () => {
           <p className="mb-4">Projeto</p>
           <h2>Visão Global</h2>
           <p className="mt-4">
-            Neste projeto prático, foi criado um site de comércio eletrônico
-            full stack usando reactjs, redux toolkit e firebase v9 com UI e UX
-            modernos. Design responsivo, com a utilização das ferramentas do
-            react-redux, usando a autenticação do firebase firestore, firebase
-            storage, como usar useState hooks, useEffect hooks, useRef hooks,
-            biblioteca remix icon e muito mais.
+            Projeto de Website de delivery App com a parte de design da página
+            principal utilizável em todos os dispositivos. Todas funcionalidades
+            estão funcionando perfeitamente.
+          </p>
+          <p className="mt-4">
+            Próximas Atualizações: Páginação para cart / Login / Register Página
+            de Produtos Adição de Firebase para autenticar usuários.
           </p>
           <a
-            href="https://eshop-react-ecommerce.netlify.app/"
+            href="https://bestfood-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +48,7 @@ const criptobase = () => {
             </button>
           </a>
           <a
-            href="https://github.com/pauloaraujo028/eshop-react-ecommerce"
+            href="https://github.com/pauloaraujo028/best-food-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,16 +63,13 @@ const criptobase = () => {
                 <RiRadioButtonFill className="pr-1" /> ReactJs
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> CSS3
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Redux
+                <RiRadioButtonFill className="pr-1" /> React Router DOM
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> React Router
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> NodeJS
               </p>
             </div>
           </div>

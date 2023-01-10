@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import eshop from "../public/assets/projects/eshop.png";
+import multiHomeImg from "../public/assets/projects/multi-home.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const criptobase = () => {
+const MultiHome = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,15 +13,15 @@ const criptobase = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={eshop}
+          src={multiHomeImg}
           alt="/"
         />
         <div
           className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] 
           translate-y-[-50%] text-white z-10 p-2"
         >
-          <h2 className="py-2">eShop React eCommerce</h2>
-          <h3>React JS / Redux / Firebase</h3>
+          <h2 className="py-2">Multi Home Imóveis</h2>
+          <h3>React JS / Tailwind CSS / React Router DOM</h3>
         </div>
       </div>
 
@@ -30,15 +30,18 @@ const criptobase = () => {
           <p className="mb-4">Projeto</p>
           <h2>Visão Global</h2>
           <p className="mt-4">
-            Neste projeto prático, foi criado um site de comércio eletrônico
-            full stack usando reactjs, redux toolkit e firebase v9 com UI e UX
-            modernos. Design responsivo, com a utilização das ferramentas do
-            react-redux, usando a autenticação do firebase firestore, firebase
-            storage, como usar useState hooks, useEffect hooks, useRef hooks,
-            biblioteca remix icon e muito mais.
+            Projeto de Loja de aluguel de imóveis, com página de detalhes, login
+            e register, filtro e pesquisa de imóveis, useState, useEffect,
+            useRef entre outras funcionalidades, possui design responsivo, UI e
+            UX, utilizável em todos os dispositivos. Todas funcionalidades estão
+            funcionando perfeitamente, Espero que goste.
+          </p>
+          <p className="mt-4">
+            Próximas Atualizações: Adição de opções de venda de imóveis, páginas
+            de sobre, corretores, lojas, dark Theme.
           </p>
           <a
-            href="https://eshop-react-ecommerce.netlify.app/"
+            href="https://multihome-imoveis.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +50,7 @@ const criptobase = () => {
             </button>
           </a>
           <a
-            href="https://github.com/pauloaraujo028/eshop-react-ecommerce"
+            href="https://github.com/pauloaraujo028/real-estate-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,16 +65,10 @@ const criptobase = () => {
                 <RiRadioButtonFill className="pr-1" /> ReactJs
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> CSS3
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Redux
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> React Router
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> React Router DOM
               </p>
             </div>
           </div>
@@ -84,4 +81,4 @@ const criptobase = () => {
   );
 };
 
-export default criptobase;
+export default MultiHome;
