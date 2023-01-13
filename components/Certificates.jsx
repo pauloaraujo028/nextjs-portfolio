@@ -8,6 +8,7 @@ import Image from "next/image";
 import certificate01 from "../public/assets/certificates/certificate01.jpg";
 import certificate02 from "../public/assets/certificates/certificate02.png";
 import certificate03 from "../public/assets/certificates/certificate03.jpg";
+import certificate04 from "../public/assets/certificates/certificate04.jpg";
 
 export default function Certificates() {
   return (
@@ -26,13 +27,25 @@ export default function Certificates() {
             className="lg:w-[700px] md:w-[500px] w-[280px] h-full"
           >
             <SwiperSlide>
-              <Image src={certificate01} alt="#" />
+              <Image
+                src={certificate01}
+                alt="Certificado Bootcamp de Angular, Typescript e AWS"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={certificate02} alt="#" />
+              <Image src={certificate02} alt="Certificado Bootcamp Linux" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={certificate03} alt="#" />
+              <Image
+                src={certificate03}
+                alt="Certificado Trabalhando em Equipes Ágeis"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src={certificate04}
+                alt="Certificado Formação HTML Web Developer"
+              />
             </SwiperSlide>
           </Swiper>
         </div>
