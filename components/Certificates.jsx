@@ -29,22 +29,22 @@ export default function Certificates() {
             <SwiperSlide>
               <Image
                 src={certificate01}
-                alt="Certificado Bootcamp de Angular, Typescript e AWS"
+                alt="Certificado - Bootcamp de Angular, Typescript e AWS"
               />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={certificate02} alt="Certificado Bootcamp Linux" />
+              <Image src={certificate02} alt="Certificado - Bootcamp Linux" />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={certificate03}
-                alt="Certificado Trabalhando em Equipes Ágeis"
+                alt="Certificado - Trabalhando em Equipes Ágeis"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Image
                 src={certificate04}
-                alt="Certificado Formação HTML Web Developer"
+                alt="Certificado - Formação HTML Web Developer"
               />
             </SwiperSlide>
           </Swiper>
