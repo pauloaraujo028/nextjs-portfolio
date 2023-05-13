@@ -35,8 +35,10 @@ export default function Certificates() {
                   <p className="flex justify-center items-center font-bold">
                     Principais Trilhas do Curso
                   </p>
-                  <li></li>
-                  <li></li>
+                  <li>Fundamentos do React</li>
+                  <li>Conceitos Básicos da Biblioteca</li>
+                  <li>Ampliando o Conhecimento de React</li>
+                  <li>Conceitos Avançados em React</li>
                 </ol>
               </div>
             </SwiperSlide>
@@ -82,9 +84,9 @@ export default function Certificates() {
                   <p className="flex justify-center items-center font-bold">
                     Principais Trilhas do Curso
                   </p>
-                  <li>Primeiros Passos com HTML</li>
-                  <li>HTML I: Conceitos Básicos</li>
-                  <li>HTML II: Ampliando o Conhecimento</li>
+                  <li>Primeiros Passos com CSS</li>
+                  <li>CSS I: Trabalhando com Layouts no CSS</li>
+                  <li>CSS II: Refinando os Estilos CSS das Nossas Páginas</li>
                 </ol>
               </div>
             </SwiperSlide>
