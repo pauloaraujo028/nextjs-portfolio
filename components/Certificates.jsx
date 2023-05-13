@@ -70,9 +70,9 @@ export default function Certificates() {
                   <p className="flex justify-center items-center font-bold">
                     Principais Trilhas do Curso
                   </p>
-                  <li>Primeiros Passos com HTML</li>
-                  <li>HTML I: Conceitos Básicos</li>
-                  <li>HTML II: Ampliando o Conhecimento</li>
+                  <li>Primeiros Passos com CSS</li>
+                  <li>CSS I: Trabalhando com Layouts no CSS</li>
+                  <li>CSS II: Refinando os Estilos CSS das Nossas Páginas</li>
                 </ol>
               </div>
             </SwiperSlide>
@@ -84,9 +84,8 @@ export default function Certificates() {
                   <p className="flex justify-center items-center font-bold">
                     Principais Trilhas do Curso
                   </p>
-                  <li>Primeiros Passos com CSS</li>
-                  <li>CSS I: Trabalhando com Layouts no CSS</li>
-                  <li>CSS II: Refinando os Estilos CSS das Nossas Páginas</li>
+                  <li>Primeiros Passos com Nextjs</li>
+                  <li>Conceitos Básicos</li>
                 </ol>
               </div>
             </SwiperSlide>
