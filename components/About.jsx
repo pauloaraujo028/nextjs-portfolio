@@ -13,31 +13,22 @@ const About = () => {
           </p>
           <h2 className="py-4">Quem sou Eu</h2>
           <p className="py-2 text-gray-600 dark:text-white">
-            Desde jovem, sempre tive afinidade com tecnologia e computadores. Em
-            2022, decidi mergulhar no mundo da programação e escolhi o Python
-            como minha primeira linguagem de estudo. A facilidade de aprendizado
-            me encantou e, após alguns meses, passei a me dedicar ao back-end.
-            Mais tarde, me interessei pelo ReactJS e decidi me especializar na
-            linguagem. Comecei meus primeiros projetos com HTML e CSS básicos,
-            mas logo me apaixonei pelo front-end.
+            Entusiasta de tecnologia desde jovem, em 2022, iniciei minha jornada
+            na programação com Python, fascinando-me pela sua facilidade.
+            Rapidamente me aprofundei no back-end e descobri minha paixão pelo
+            front-end, especialmente com ReactJS. Hoje, foco em projetos
+            envolvendo ReactJS, NextJS e Firebase, sempre buscando me atualizar
+            com as últimas tecnologias.
           </p>
           <p className="py-2 text-gray-600 dark:text-white">
-            A complexidade da programação me fascinou e me incentivou a
-            continuar aprendendo. Passei a estudar javascript e me empolguei em
-            tornar os sites mais interativos. Desde então, tenho estudado
-            diversos projetos, estruturas e pontos de vista diferentes.
-            Atualmente, dedico meu tempo a projetos com ReactJS, NextJS e
-            Firebase, enquanto procuro sempre me atualizar com novas
-            tecnologias.
-          </p>
-          <p className="py-2 text-gray-600 dark:text-white">
-            Acredito ser ágil e consistente ao aprender novas linguagens e me
-            adaptar a mudanças, sempre focando em meus objetivos e pronto para
-            enfrentar qualquer desafio. Se tivesse que me definir em três
-            palavras, seriam: otimista, perseverante e dedicado.
+            Considero-me ágil e consistente ao aprender novas linguagens,
+            adaptando-me facilmente a mudanças. Encaro desafios com otimismo,
+            mantendo-me perseverante e dedicado em busca dos meus objetivos. Se
+            eu tivesse que me definir em três palavras, seriam: otimista,
+            perseverante e dedicado.
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer hover:text-[#fe140d] dark:text-white">
+            <p className="py-2 text-gray-600 underline cursor-pointer hover:text-[#fe140d] dark:text-white hover:dark:text-[#fe140d]">
               Confira alguns dos meus últimos projetos.
             </p>
           </Link>
